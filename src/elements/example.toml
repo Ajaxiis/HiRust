@@ -1,0 +1,21 @@
+[paket]
+name = ""
+aname= ""
+vere =""
+
+[dependencies]
+# name of lib on crates.io
+# example : 
+# egui = "0.17.0"
+
+
+
+
+[methods] # dots hor
+[method, type, value, help] 
+# задается строго типизированная строка : имя, тип, значение  (если есть опции выбора, то через знак |), строка всплывающей помощи.
+# example : [align, String "left|right|center","выравнивание по горизонтали"]
+
+
+[parametres] # dots vert
+[parameter, value, help ] # example : [width, f32, "ширина в точках"]
