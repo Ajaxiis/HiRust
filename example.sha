@@ -1,0 +1,23 @@
+Make(webapp)
+Add(MainForm,1,350,63)
+{
+  Width=#3:397|
+  Height=#3:372|
+  Caption=#11:main window|
+}
+Add(Button,2,420,140)
+{
+  Left=98
+  Top=175
+  Width=#3:171|
+  Caption=#15:Open new window|
+  @Color=Red
+  link(onClick,3:doOpen,[])
+}
+Add(Window,3,483,140)
+{
+  Name=#8:window2 |
+  Width=300
+  Height=300
+  @Comment=#10:new window|
+}
