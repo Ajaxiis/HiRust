@@ -1,4 +1,4 @@
-# Interactive-Graphical-Rust-Aplication-builder-
+# HiRust
 
 ru-Ru:
 <h3>Эта версия -не рабочая, фукционал в процессе написания </h3>
